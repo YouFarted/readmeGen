@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "use node to make a README",
   "main": "index.js",
+//  "type": "module",  <- needed if I were to go the ES6 route
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
