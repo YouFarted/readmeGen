@@ -6,4 +6,6 @@ dumping_ground
 # well.  Afterall, there's worse: Windows.  <holds nose>
 # Myself, I'm using Linux until I get into the swing of Redox.  Yes, i'm an elitist nerd.  Sue me.
 *~
-# The above is for vimtemporary files.  Again: card-carrying nerd here RUNNING LINUX.
+# The above is for vim temporary files.  Again: card-carrying nerd here RUNNING LINUX.
+# localjunk/ is for local notes that I don't want to commit to git.  These can be screenshots that i'm driving to match my UI with or just data or notes on how to use a library
+localjunk/
