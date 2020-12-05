@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "use node to make a README",
   "main": "index.js",
-//  "type": "module",  <- needed if I were to go the ES6 route
+  "ignorethis-type": "module",  
+  "ignorethis": "note: the above is needed if I were to go the ES6 route.  Also note that if vs-code complains about comments which is why I placated it with an unused ignorethis key",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
