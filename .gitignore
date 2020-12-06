@@ -2,6 +2,7 @@ node_modules/
 dumping_ground
 # Apple uses such .DS_STORE directories.  YUCK.
 .DS_STORE/
+.vscode/
 # I don't have use of this but this repository may as well be useful on Mac as
 # well.  Afterall, there's worse: Windows.  <holds nose>
 # Myself, I'm using Linux until I get into the swing of Redox.  Yes, i'm an elitist nerd.  Sue me.
