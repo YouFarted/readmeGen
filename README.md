@@ -1,7 +1,16 @@
 
 
-# readmeGen
-use node to make a README 
+# ReadMe Generator
+
+## Table Of Contents
+1.  [Goal](#goal)
+1.  [User Story](#user-story)
+2.  [Acceptance Criteria](#acceptance-criteria)
+3.  [Links](#links)
+
+## Goal
+
+Use node with the builtin fs module the inquirer.js package to ask the user a series of questions about what content they want in their README.md so I can generate the tiresome boilerplate.  As a hint, a user can just enter some "...blah... I'll write this later" text for any content they want to stew on and fill in later.
 
 ## User Story
 
@@ -31,3 +40,5 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
+## Links
+github project page:  https://github.com/YouFarted/readmeGen
