@@ -26,7 +26,7 @@ ${data.usage}
 
 ${data.license.summary}
 
-Read the full license here: ${data.license.linkToFull}
+Read more about the full license here: ${data.license.linkToMoreInfo}
 ## Contributing
 ${data.contributing}
 ## Tests
