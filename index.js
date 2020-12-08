@@ -40,87 +40,82 @@ const licenceOptions = [
 
     {name:  'Attribution-ShareAlike 4.0 International',
     badge:   'https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg',
-    summary: 'summary0',
+    summary: 'You are free to: 1) Share — copy and redistribute the material in any medium or format and 2) Adapt — remix, transform, and build upon the material for any purpose, even commercially.',
     linkToMoreInfo:'https://creativecommons.org/licenses/by-sa/4.0/'},
 
     {name:  'Attribution-NonCommercial 4.0 International',
     badge:   'https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg',
-    summary: 'summary1',
+    summary: 'You are free to: 1) Share — copy and redistribute the material in any medium or format and 2) Adapt — remix, transform, and build upon the material.  Note no commercial use.',
     linkToMoreInfo:'https://creativecommons.org/licenses/by-nc/4.0/'},
 
     {name:  'Attribution-NoDerivates 4.0 International',
     badge:   'https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg',
-    summary: 'summary0',
+    summary: 'You are free to:  Share — copy and redistribute the material in any medium or format for any purpose, even commercially.  Note - NO changes are allowed.',
     linkToMoreInfo:'https://creativecommons.org/licenses/by-nd/4.0/'},
 
     {name:  'Attribution-NonCommmercial-ShareAlike 4.0 International',
     badge:   'https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg',
-    summary: 'summary1',
+    summary: 'You are free to: 1) Share — copy and redistribute the material in any medium or format ans 2) Adapt — remix, transform, and build upon the material.  Note no commercial use.',
     linkToMoreInfo:'https://creativecommons.org/licenses/by-nc-sa/4.0/'},
 
     {name:  'Attribution-NonCommercial-NoDerivatives 4.0 International',
     badge:   'https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg',
-    summary: 'summary0',
+    summary: 'Share — copy and redistribute the material in any medium or format.  Note - no commercial use and no changes are allowed',
     linkToMoreInfo:'https://creativecommons.org/licenses/by-nc-nd/4.0/'},
 
     {name:  'Eclipse Public License 1.0',
     badge:   'https://img.shields.io/badge/License-EPL%201.0-red.svg',
-    summary: 'summary1',
-    linkToMoreInfo:'https://opensource.org/licenses/EPL-1.0'},
-
-    {name:  'Eclipse Public License 1.0',
-    badge:   'https://img.shields.io/badge/License-EPL%201.0-red.svg',
-    summary: 'summary0',
+    summary: 'This license, made and used by the Eclipse Foundation, is similar to GPL but allows you to link code under the license to proprietary applications. You may also license binaries under a proprietary license, as long as the source code is available under EPL.',
     linkToMoreInfo:'https://opensource.org/licenses/EPL-1.0'},
 
     {name:  'GNU GPL v3',
     badge:   'https://img.shields.io/badge/License-GPLv3-blue.svg',
-    summary: 'summary1',
+    summary: 'This is the gold-standard open-source license for the sake of keeping software and derived works open-source.  It is absolutely NON permissive.  You may copy, distribute and modify the software as long as you track changes/dates in source files. Any modifications to or software including (via compiler) GPL-licensed code must also be made available under the GPL along with build & install instructions.',
     linkToMoreInfo:'https://www.gnu.org/licenses/gpl-3.0'},
 
     {name:  'GNU GPL v2',
     badge:   'https://img.shields.io/badge/License-GPL%20v2-blue.svg',
-    summary: 'summary0',
+    summary: 'This WAS the gold-standard open-source license for the sake of keeping software and derived works open-source before v3 of it.  It is MOSTLY NON permissive.  What is notable about what sets this apart from v3 is that v3 closed some permisibility gaps and Linus Torvalds, the creator of Linux, eschewed v3 for this reason and stuck with v2.  (Look up "Tivoization" to see precisely what this gap is.  It is named as such because the Tivo company exploited a permissive gap, as the GNU saw it, which prompted the revisions made in the v3)  It is MOSTLY NON permissive.  You may copy, distribute and modify the software as long as you track changes/dates in source files. Any modifications to or software including (via compiler) GPL-licensed code must also be made available under the GPL along with build & install instructions.',
     linkToMoreInfo:'https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html'},
 
     {name:  'GNU AGPL v3',
     badge:   'https://img.shields.io/badge/License-AGPL%20v3-blue.svg',
-    summary: 'summary1',
-    linkToMoreInfo:'https://www.gnu.org/licenses/agpl-3.0'},
+    summary: 'The AGPL license differs from the other GNU licenses in that it was built for network software. You can distribute modified versions if you keep track of the changes and the date you made them. As per usual with GNU licenses, you must license derivatives under AGPL. It provides the same restrictions and freedoms as the GPLv3 but with an additional clause which makes it so that source code must be distributed along with web publication. Since web sites and services are never distributed in the traditional sense, the AGPL is the GPL of the web.',
+    linkToMoreInfo:'https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)'},
 
     {name:  'GNU LGPL v3',
     badge:   'https://img.shields.io/badge/License-LGPL%20v3-blue.svg',
-    summary: 'summary0',
+    summary: 'In summary the LGPL states that any non-derivative work can be released under any terms or licenses; Basically that means releasing software that simply uses a LGPL library. A derivative work would be one that makes changes to the source, creating a different work than the originally licensed work.',
     linkToMoreInfo:'https://www.gnu.org/licenses/lgpl-3.0'},
 
     {name:  'GNU FDL v1.3',
     badge:   'https://img.shields.io/badge/License-FDL%20v1.3-blue.svg',
-    summary: 'summary1',
+    summary: 'The purpose of this License is to make a manual, textbook, or other functional and useful document "free" in the sense of freedom: to assure everyone the effective freedom to copy and redistribute it, with or without modifying it, either commercially or noncommercially. Secondarily, this License preserves for the author and publisher a way to get credit for their work, while not being considered responsible for modifications made by others.',
     linkToMoreInfo:'https://www.gnu.org/licenses/fdl-1.3'},
 
     {name:  'IBM Public License Version 1.0',
     badge:   'https://img.shields.io/badge/License-IPL%201.0-blue.svg',
-    summary: 'summary1',
+    summary: 'The IPL differs from the GNU General Public License (GPL), in that it places the liability on the publisher or distributor of the licensed software code. The reason behind this is to facilitate the commercial use of open-source software, without placing the contributor at risk of liability.',
     linkToMoreInfo:'https://opensource.org/licenses/IPL-1.0'},
 
     {name:  'ISC License (ISC)',
     badge:   'https://img.shields.io/badge/License-ISC-blue.svg',
-    summary: 'summary1',
+    summary: 'The ISC license is a permissive free software license published by the Internet Software Consortium, nowadays called Internet Systems Consortium (ISC). It is functionally equivalent to the simplified BSD and MIT licenses',
     linkToMoreInfo:'https://opensource.org/licenses/ISC'},
 
     {name:  'The MIT License',
     badge:   'https://img.shields.io/badge/License-MIT-yellow.svg',
-    summary: 'summary1',
-    linkToMoreInfo:'https://opensource.org/licenses/MIT'},
+    summary: 'A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.  There are many variations of this license in use.',
+    linkToMoreInfo:'https://tldrlegal.com/license/mit-license'},
 
     {name:  'Mozilla Public License 2.0',
     badge:   'https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg',
-    summary: 'summary1',
+    summary: 'MPL is a copyleft license that is easy to comply with. You must make the source code for any of your changes available under MPL, but you can combine the MPL software with proprietary code, as long as you keep the MPL code in separate files. Version 2.0 is, by default, compatible with LGPL and GPL version 2 or greater. You can distribute binaries under a proprietary license, as long as you make the source available under MPL.',
     linkToMoreInfo:'https://opensource.org/licenses/MPL-2.0'},
 
     {name:  'Attribution License (BY)',
     badge:   'https://img.shields.io/badge/License-ODC_BY-brightgreen.svg',
-    summary: 'summary1',
+    summary: 'You are free: 1) To share: To copy, distribute and use the database. 2) To create: To produce works from the database. 3) To adapt: To modify, transform and build upon the database.  As long as you: Attribute: You must attribute any public use of the database, or works produced from the database, in the manner specified in the license. For any use or redistribution of the database, or works produced from it, you must make clear to others the license of the database and keep intact any notices on the original database.',
     linkToMoreInfo:'https://opendatacommons.org/licenses/by/'},
 
     {name:  'Open Database License (ODbL)',
@@ -130,7 +125,7 @@ const licenceOptions = [
 
     {name:  'Public Domain Dedication and License (PDDL)',
     badge:   'https://img.shields.io/badge/License-PDDL-brightgreen.svg',
-    summary: 'summary1',
+    summary: ' allows usage, sharing and modification of datasets for any purpose and without any restriction',
     linkToMoreInfo:'https://opendatacommons.org/licenses/pddl/'},
 
     {name:  'The Perl License AKA The Artistic License 1.0',
@@ -145,22 +140,22 @@ const licenceOptions = [
 
     {name:  'SIL Open Font License 1.1',
     badge:   'https://img.shields.io/badge/License-OFL%201.1-lightgreen.svg',
-    summary: 'summary1',
+    summary: 'allows embedding, or "bundling", of a font in commercially sold products.',
     linkToMoreInfo:'https://opensource.org/licenses/OFL-1.1'},
 
     {name:  'The Unlicense',
     badge:   'https://img.shields.io/badge/license-Unlicense-blue.svg',
-    summary: 'summary1',
+    summary: 'The Unlicense is a template for disclaiming copyright monopoly interest in software you\'ve written; in other words, it is a template for dedicating your software to the public domain. It combines a copyright waiver patterned after the very successful public domain SQLite project with the no-warranty statement from the widely-used MIT/X11 license.',
     linkToMoreInfo:'http://unlicense.org/'},
 
     {name:  'The Do What the Fuck You Want to Public License',
     badge:   'https://img.shields.io/badge/License-WTFPL-brightgreen.svg',
-    summary: 'summary1',
+    summary: 'Nearly the entirety of the license is just this:  Everyone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed.',
     linkToMoreInfo:'http://www.wtfpl.net/about/'},
 
     {name:  'The zlib/libpng License',
     badge:   'https://img.shields.io/badge/License-Zlib-lightgrey.svg',
-    summary: 'summary1',
+    summary: 'No liability and basically just do what you want.',
     linkToMoreInfo:'https://opensource.org/licenses/Zlib'},
 ]
 
